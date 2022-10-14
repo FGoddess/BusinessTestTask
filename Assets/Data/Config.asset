@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594550cf0e6b2d541a8942f55fb2cdf5, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  BusinessItemModel:
+  - Id: 0
+    Name: "\u0411\u0438\u0437\u043D\u0435\u0441 1"
+    Income: 27
+    BaseIncome: 3
+    IncomeDelay: 3
+    SliderValue: 0.017511133
+    LevelModel:
+      Price: 30
+      BasePrice: 3
+      Level: 9
+    FirstUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 1"
+      IncomeIncrease: 0.5
+      Price: 50
+      IsPurchased: 0
+    SecondUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 2"
+      IncomeIncrease: 1
+      Price: 400
+      IsPurchased: 0
+  - Id: 1
+    Name: "\u0411\u0438\u0437\u043D\u0435\u0441 2"
+    Income: 40
+    BaseIncome: 40
+    IncomeDelay: 6
+    SliderValue: 0.4278925
+    LevelModel:
+      Price: 80
+      BasePrice: 40
+      Level: 1
+    FirstUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 1"
+      IncomeIncrease: 1
+      Price: 1200
+      IsPurchased: 0
+    SecondUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 2"
+      IncomeIncrease: 2
+      Price: 4000
+      IsPurchased: 0
+  - Id: 2
+    Name: "\u0411\u0438\u0437\u043D\u0435\u0441 3"
+    Income: 200
+    BaseIncome: 200
+    IncomeDelay: 10
+    SliderValue: 0
+    LevelModel:
+      Price: 200
+      BasePrice: 200
+      Level: 0
+    FirstUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 1"
+      IncomeIncrease: 1
+      Price: 6000
+      IsPurchased: 0
+    SecondUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 2"
+      IncomeIncrease: 1.5
+      Price: 20000
+      IsPurchased: 0
+  - Id: 3
+    Name: "\u0411\u0438\u0437\u043D\u0435\u0441 4"
+    Income: 1000
+    BaseIncome: 1000
+    IncomeDelay: 17
+    SliderValue: 0
+    LevelModel:
+      Price: 1000
+      BasePrice: 1000
+      Level: 0
+    FirstUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 1"
+      IncomeIncrease: 1
+      Price: 15000
+      IsPurchased: 0
+    SecondUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 2"
+      IncomeIncrease: 2
+      Price: 50000
+      IsPurchased: 0
+  - Id: 4
+    Name: "\u0411\u0438\u0437\u043D\u0435\u0441 5"
+    Income: 5000
+    BaseIncome: 5000
+    IncomeDelay: 30
+    SliderValue: 0
+    LevelModel:
+      Price: 5000
+      BasePrice: 5000
+      Level: 0
+    FirstUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 1"
+      IncomeIncrease: 2
+      Price: 100000
+      IsPurchased: 0
+    SecondUpgradeItem:
+      Name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 2"
+      IncomeIncrease: 4
+      Price: 500000
+      IsPurchased: 0
+  Money: 130
